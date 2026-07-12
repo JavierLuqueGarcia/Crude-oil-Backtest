@@ -1,0 +1,6 @@
+pandas==2.2.0
+numpy==1.24.3
+yfinance==0.2.32
+matplotlib==3.8.2
+openpyxl==3.10.0
+urllib3==2.1.0
