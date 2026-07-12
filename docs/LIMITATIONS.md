@@ -96,7 +96,7 @@ This project completed #1–2. #3–7 remain future work.
 
 ## Final words
 
-A backtest can mislead in subtle ways. This one succeeds *because* it's transparent:
+A backtest can mislead in subtle ways. This one succeeds becasue it's transparent:
 - Every intermediate number is visible
 - Every trade is auditable
 - Every formula is in plain text (Excel)
