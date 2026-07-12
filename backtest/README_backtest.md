@@ -2,7 +2,7 @@
 
 ## Files
 
-- **Crude_Oil_Backtest.xlsx** — The main working spreadsheet. Four sheets: Tracking, Data, Strategy, Results.
+- **Crude_Oil_Backtest.xlsx**: The main working spreadsheet. Four sheets: Tracking, Data, Strategy, Results.
 
 ## How to Use
 
