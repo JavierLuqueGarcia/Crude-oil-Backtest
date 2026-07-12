@@ -2,10 +2,10 @@
 
 ## Files
 
-- **download_data.py** — Fetches fresh WTI/Brent prices from Yahoo Finance and EIA inventory/refinery data
-- **backtest.py** — Implements the mean-reversion rule, runs it day by day, generates trades.csv
-- **analysis.py** — Computes metrics, generates the 9 PNG figures
-- **requirements.txt** — Dependencies (pandas, yfinance, matplotlib)
+- **download_data.py**: Fetches fresh WTI/Brent prices from Yahoo Finance and EIA inventory/refinery data
+- **backtest.py**: Implements the mean-reversion rule, runs it day by day, generates trades.csv
+- **analysis.py**: Computes metrics, generates the 9 PNG figures
+- **requirements.txt**: Dependencies (pandas, yfinance, matplotlib)
 
 ## Quick Start
 
