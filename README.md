@@ -124,11 +124,11 @@ See [docs/GLOSSARY.md](docs/GLOSSARY.md) for 36 full definitions.
 
 This project was built as part of a commodity-trading preparation programme to demonstrate:
 
-1. **Quantitative thinking** — from hypothesis (mean reversion exists) to precise rule to empirical test.
-2. **Data discipline** — real, auditable data; formulas visible; trade-by-trade record; honest caveats.
-3. **Communication** — a 20-page report that explains every concept so someone new to markets can follow.
-4. **Tool fluency** — Excel formulas for backtesting, Python for data pipelines, charting, metrics.
-5. **Industry awareness** — understanding of contango/backwardation, inventory signals, roll costs, real-world constraints.
+1. **Quantitative thinking**: from hypothesis (mean reversion exists) to precise rule to empirical test.
+2. **Data discipline**: real, auditable data; formulas visible; trade-by-trade record; honest caveats.
+3. **Communication**: a 20-page report that explains every concept so someone new to markets can follow.
+4. **Tool fluency**: Excel formulas for backtesting, Python for data pipelines, charting, metrics.
+5. **Industry awareness**: understanding of contango/backwardation, inventory signals, roll costs, real-world constraints.
 
 **Not being claimed:** this rule is ready to trade live, or that past performance predicts the future. **What is being claimed:** here's a hypothesis about oil markets, here's how I tested it rigorously, here's what the data shows, and here's what I'd ignore if I wanted to claim profit.
 
@@ -155,7 +155,7 @@ See [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md) for:
 
 ## License
 
-[MIT License](LICENSE) — use, modify, and share freely.
+[MIT License](LICENSE)  use, modify, and share freely.
 
 ---
 
@@ -169,4 +169,4 @@ See [docs/NEXT_STEPS.md](docs/NEXT_STEPS.md) for:
 
 ---
 
-**Built July 2026. Updated [date]. ~250 hours of research and testing.**
+
