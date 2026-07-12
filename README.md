@@ -13,7 +13,7 @@ A complete, reproducible study of a simple trading rule applied to 11.5 years of
 
 ## Quick Start: Where to Go
 
-- **New to this project?** Read [reports/Crude_Oil_Backtest_Report.pdf](reports/Crude_Oil_Backtest_Report.pdf) — a 20-page scientific report that explains every concept from scratch, with figures.
+- **New to this project?** Read [reports/Crude_Oil_Backtest_Report.pdf](reports/Crude_Oil_Backtest_Report.pdf) A 20-page scientific report that explains every concept from scratch, with figures.
 - **Want to see the data?** Check [data/](data/) for all CSVs (prices, inventory, trades).
 - **Want to run it yourself?** See [src/README.md](src/README.md) and [backtest/README.md](backtest/README.md).
 - **Don't understand a term?** See [docs/GLOSSARY.md](docs/GLOSSARY.md) (36 terms explained).
@@ -30,7 +30,7 @@ A **backtest** is replaying a trading rule on historical data to measure how it 
 4. **Reports honestly**: Shows what worked, what failed (the −39.8% COVID trade), and what wasn't modeled (costs, slippage).
 
 The goal is to demonstrate:
-- Can a *mechanical* rule (no human judgment) capture patterns in oil?
+- Can a mechanical rule (no human judgment) capture patterns in oil?
 - What's the honest cost of ignoring real-world frictions?
 - What would you need to do to deploy this in practice?
 
@@ -82,7 +82,7 @@ No forecasting. No news reading. No judgement. Mechanical.
 
 ## Critical Limitations (Read This Before Assuming Profit)
 
-This backtest shows what *would* have worked in historical data, **not** what will work in the future. Reasons to be cautious:
+This backtest shows what *would have worked in historical data, **not** what will work in the future. Reasons to be cautious:
 
 - **Transaction costs ignored**: Real trading costs ~$0.05–0.10/bbl per side. Over 59 trades, that's several percentage points of drag.
 - **Slippage ignored**: Prices you actually fill at are usually worse than the closing price used in the backtest, especially in fast-falling markets (when this rule buys).
@@ -114,21 +114,20 @@ This backtest shows what *would* have worked in historical data, **not** what wi
 
 ## Key Concepts Explained
 
-**WTI** — West Texas Intermediate, the US oil benchmark. **Brent** — the global benchmark. Both trade as futures (contracts for delivery on a future date). **Spot price** — the price for delivery today. **Contango** — a futures curve where future months cost more (signals ample supply). **Backwardation** — future months cheaper (signals tight supply). **20-day moving average** — the average of the last 20 daily prices, a one-month smoothed view. **Mean reversion** — the tendency of a price that has swung far from its recent average to drift back. **P&L** — profit and loss. **Equity curve** — the running total of all trade returns.
+**WTI**: West Texas Intermediate, the US oil benchmark. **Brent**: The global benchmark. Both trade as futures (contracts for delivery on a future date). **Spot price**: The price for delivery today. **Contango**: A futures curve where future months cost more (signals ample supply). **Backwardation**: Future months cheaper (signals tight supply). **20-day moving average**: The average of the last 20 daily prices, a one-month smoothed view. **Mean reversion**: The tendency of a price that has swung far from its recent average to drift back. **P&L**: Profit and loss. **Equity curve**: The running total of all trade returns.
 
 See [docs/GLOSSARY.md](docs/GLOSSARY.md) for 36 full definitions.
 
 ---
 
-## For Recruiters / Interview Context
 
 This project was built as part of a commodity-trading preparation programme to demonstrate:
 
 1. **Quantitative thinking**: from hypothesis (mean reversion exists) to precise rule to empirical test.
 2. **Data discipline**: real, auditable data; formulas visible; trade-by-trade record; honest caveats.
-3. **Communication**: a 20-page report that explains every concept so someone new to markets can follow.
+3. **Communication**: A 20-page report that explains every concept so someone new to markets can follow.
 4. **Tool fluency**: Excel formulas for backtesting, Python for data pipelines, charting, metrics.
-5. **Industry awareness**: understanding of contango/backwardation, inventory signals, roll costs, real-world constraints.
+5. **Industry awareness**: Understanding of contango/backwardation, inventory signals, roll costs, real-world constraints.
 
 **Not being claimed:** this rule is ready to trade live, or that past performance predicts the future. **What is being claimed:** here's a hypothesis about oil markets, here's how I tested it rigorously, here's what the data shows, and here's what I'd ignore if I wanted to claim profit.
 
